@@ -1,0 +1,11 @@
+.accordion {
+    width: 20rem;
+    margin: 2rem auto;
+}
+
+@media screen and (min-width: 46rem) {
+
+    .accordion {
+        width: 44rem;
+    }
+}

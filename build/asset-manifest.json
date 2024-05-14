@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d0b69911.css",
+    "main.js": "/static/js/main.137d91f2.js",
+    "static/js/787.bd02f72e.chunk.js": "/static/js/787.bd02f72e.chunk.js",
+    "static/media/machine-learning.jpg": "/static/media/machine-learning.14805acc856ee846e990.jpg",
+    "static/media/angular.jpg": "/static/media/angular.5dedf9001c9b6b9f0451.jpg",
+    "static/media/blockchain.jpg": "/static/media/blockchain.23fd0f1732100b640577.jpg",
+    "index.html": "/index.html",
+    "main.d0b69911.css.map": "/static/css/main.d0b69911.css.map",
+    "main.137d91f2.js.map": "/static/js/main.137d91f2.js.map",
+    "787.bd02f72e.chunk.js.map": "/static/js/787.bd02f72e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d0b69911.css",
+    "static/js/main.137d91f2.js"
+  ]
+}

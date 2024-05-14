@@ -1,0 +1,19 @@
+.submit-contact-form {
+    display: flex;
+}
+
+.contact-success-text {
+    position-top: 10rem;
+
+}
+
+.contact-success-text > h3 {
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.back-contact-button {
+    color: #4a4ac5;
+
+    font-size: 1.1rem
+}

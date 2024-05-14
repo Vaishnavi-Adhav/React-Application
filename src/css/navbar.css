@@ -1,0 +1,165 @@
+.navbar {
+    margin-left: inherit;
+}
+
+.dropdown-button {
+    position: absolute;
+    right: 0;
+    top: 0rem;
+
+    border: none;
+
+    background-color: transparent;
+    color: black;
+
+    height: 2.5rem;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+/* Below CSS adapted from https://css.gg under the MIT License */
+.gg-menu {
+    grid-column-start: -1;
+
+    transform: scale(var(--ggs, 1));
+    scale: 1.2;
+    cursor: pointer;
+    color: white;
+}
+
+/* Below CSS adapted from https://css.gg under the MIT License */
+.gg-menu,
+.gg-menu::after,
+.gg-menu::before {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 20px;
+    height: 2px;
+    border-radius: 3px;
+    background: currentColor
+}
+
+/* Below CSS adapted from https://css.gg under the MIT License */
+.gg-menu::after,
+.gg-menu::before {
+    content: "";
+    position: absolute;
+    top: -6px
+}
+
+/* Below CSS adapted from https://css.gg under the MIT License */
+.gg-menu::after {
+    top: 6px
+}
+
+
+.menus {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    right: -0.9rem;
+    top: 6.9rem;
+
+    background-color: black;
+
+    list-style: none;
+    min-width: 105%;
+}
+
+.inactive {
+    display: none;
+    position: absolute;
+
+    background-color: #f1f1f1;
+
+    min-width: 223%;
+    overflow: auto;
+    box-shadow: 0rem 0.5rem 1rem 0rem rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.menu-items {
+    position: relative;
+
+    color: #E8E8E8;
+
+    font-size: 0.85rem;
+}
+
+.menu-items a {
+    display: block;
+
+    color: inherit;
+
+    font-size: 0.85rem;
+    text-decoration: none;
+}
+
+.menu-items button {
+    display: flex;
+    align-items: center;
+
+    border: none;
+
+    color: inherit;
+    background-color: transparent;
+
+    font-size: 0.85rem;
+    cursor: pointer;
+    width: 100%;
+}
+
+.menu-items > a, .menu-items button {
+    padding: 0.7rem 1rem;
+
+    text-align: left;
+
+    font-size: 1rem;
+}
+
+.menu-items a:hover,
+.menu-items button:hover {
+    background-color: peru;
+}
+
+@media screen and (min-width: 44rem) and (prefers-reduced-motion: no-preference) {
+
+    .gg-menu, .dropdown-button {
+        display: none;
+    }
+
+    .inactive {
+        display: block;
+        position: initial;
+
+        background-color: initial;
+
+        min-width: initial;
+        overflow: initial;
+        box-shadow: initial;
+        z-index: initial;
+    }
+
+    .menus {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        position: initial;
+
+        text-decoration: none;
+    }
+}
+
+@media screen and (max-width: 25rem) {
+    .dropdown-button {
+        position: absolute;
+        top: 8.9rem;
+    }
+
+    .menus {
+        top: 10.6rem;
+    }
+}
+

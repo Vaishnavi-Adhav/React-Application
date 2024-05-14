@@ -1,0 +1,31 @@
+.accordion-title {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    cursor: pointer;
+
+    background-color: #e29c5d;
+}
+
+.accordion-title:hover {
+    background-color: #b47134
+}
+
+.accordion-title,
+.accordion-content {
+    padding: 1rem;
+}
+
+.accordion-content {
+    background-color: #e3aa92;
+}
+
+.accordion-button
+{
+    padding: 0;
+    border: none;
+
+    background: none;
+
+    scale: 1.2;
+}

@@ -1,0 +1,12 @@
+.machinelearning-content {
+    grid-column: span 12;
+
+    padding: 1rem;
+    border-radius: 2rem;
+
+    background-color: #e29c5d;
+}
+
+.machinelearningcourse-content{
+    padding:1.2rem;
+}

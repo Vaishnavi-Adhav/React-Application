@@ -1,0 +1,196 @@
+.card1 {
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 0.3rem;
+
+    background-color: rgb(238 174 202 / 59%);;
+}
+
+.card2 {
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 0.3rem;
+
+    background-color: #b1a1cc;
+}
+
+.card3 {
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 0.3rem;
+
+    background-color: #b2d2cf;;
+}
+
+.card4 {
+    border: 1px solid black;
+    border-radius: 2rem;
+    padding: 2rem;
+    margin: 1rem 0.3rem;
+
+    background-color: #e6cb85;;
+}
+
+
+.card1:hover {
+    background-color: hsla(0, 100%, 30%, 0.3);
+}
+
+.card2:hover {
+    background-color: hsla(0, 100%, 30%, 0.3);;
+}
+
+.card3:hover {
+    background-color: hsla(0, 100%, 30%, 0.3);;
+}
+
+.card4:hover {
+    background-color: hsla(0, 100%, 30%, 0.3);;
+}
+
+
+.card1 h3 {
+    margin: 0.5rem;
+
+    text-align: center;
+}
+
+.card2 h3 {
+    margin: 0.5rem;
+
+    text-align: center;
+}
+
+.card3 h3 {
+    margin: 0.5rem;
+
+    text-align: center;
+}
+
+.card4 h3 {
+    margin: 0.5rem;
+
+    text-align: center;
+}
+
+.image, .moreinfo {
+    display: flex;
+    justify-content: center;
+
+}
+
+.card-image {
+    width: 16.56rem;
+    height: 11.5rem;
+}
+
+.card1 p {
+    margin-bottom: 2.5rem;
+}
+
+.card2 p {
+    margin-bottom: 2.5rem;
+}
+
+.card3 p {
+    margin-bottom: 2.5rem;
+}
+
+.card4 p {
+    margin-bottom: 2.5rem;
+}
+
+.readmore {
+    padding: 1rem;
+    border-radius: 1rem;
+
+    background-color: green;
+    color: white;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+
+    text-decoration: none;
+}
+
+.readmore:hover {
+    background-color: rgba(152, 194, 25, 0.74);
+    color: black;
+}
+
+@media screen and (min-width: 47rem) {
+
+    .card-content {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+    }
+
+    .content-heading {
+        display: grid;
+        grid-template-columns: repeat(12, 1fr);
+        grid-column: span 12;
+    }
+
+    .content-heading h2 {
+        grid-column: span 12;
+    }
+
+
+    .card1 {
+        grid-column: span 3;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .card2 {
+        grid-column: span 3;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .card3 {
+        grid-column: span 3;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .card4 {
+        grid-column: span 3;
+        display: grid;
+        grid-template-rows: auto auto 1fr auto;
+
+        margin-top: 0;
+        margin-bottom: 5rem;
+    }
+
+    .card1 img {
+        aspect-ratio: 1/1;
+        width: max(40%, 8.5rem);
+    }
+
+    .card2 img {
+        aspect-ratio: 1/1;
+        width: max(40%, 8.5rem);
+    }
+
+    .card3 img {
+        aspect-ratio: 1/1;
+        width: max(40%, 8.5rem);
+    }
+
+    .card4 img {
+        aspect-ratio: 1/1;
+        width: max(40%, 8.5rem);
+    }
+
+}

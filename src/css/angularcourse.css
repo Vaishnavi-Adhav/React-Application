@@ -1,0 +1,12 @@
+.angular-content {
+    grid-column: span 12;
+
+    padding: 1rem;
+    border-radius: 2rem;
+
+    background-color: #e29c5d;
+}
+
+.angularcourse-content{
+    padding:1.3rem;
+}

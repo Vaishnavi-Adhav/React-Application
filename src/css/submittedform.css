@@ -1,0 +1,25 @@
+
+.submit-form
+{
+
+    display: flex;
+}
+
+.register-success-text
+{
+    position-top:10rem;
+
+}
+
+.register-success-text> h3
+{
+    padding-right: 1rem;
+    font-size: 1.2rem;
+}
+
+.back-button
+{
+    color: #4a4ac5;
+
+    font-size:1.1rem
+}

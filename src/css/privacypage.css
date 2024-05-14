@@ -1,0 +1,13 @@
+.privacy-policy{
+    grid-column: span 12;
+
+    padding: 1rem;
+    border-radius: 2rem;
+
+    background-color: #e29c5d;
+}
+
+.privacy
+{
+    padding-bottom: 1.5rem;
+}

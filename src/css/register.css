@@ -1,0 +1,189 @@
+.main-registration-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    margin-top: 2rem;
+}
+
+.hideform {
+    display: none;
+}
+
+.registration-form {
+    display: flex;
+    flex-direction: column;
+
+    padding: 2rem;
+
+    border: 1px solid black;
+    border-radius: 1rem;
+
+    background-color: #e29c5d;
+
+    min-width: 11.66rem;
+}
+
+.form-label {
+    font-size: 1rem;
+}
+
+.form-control {
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-select {
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+.form-radio-section {
+    margin-bottom: 1rem;
+}
+
+.institute-input, .company-input, .other-input {
+    padding: 0.6rem;
+    margin-bottom: 0.5rem;
+}
+
+
+.required {
+    padding-left: 1rem;
+
+    color: gray;
+
+    font-size: 1rem;
+    font-style: italic;
+}
+
+.non-valid {
+    grid-column-start: 2;
+
+    margin-bottom: 0.3rem;
+
+    color: red;
+}
+
+.submit-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    padding: 1rem;
+    border-radius: 1rem;
+    margin: 2rem;
+
+    background-color: black;
+    color: white;
+
+    font-size: 1.5rem;
+    text-decoration: none;
+    box-shadow: 3px 3px 2px 1px rgba(0, 0, 255, .2);
+    width: 69%;
+}
+
+@media screen and (min-width: 45rem) {
+    .registration-form {
+        display: grid;
+        grid-column-gap: 1rem;
+        grid-row-gap: 1rem;
+
+        padding: 5rem;
+
+        min-width: 42.66rem;
+    }
+
+    .form-label {
+        grid-column-start: 1;
+
+    }
+
+    .form-institute {
+        display: grid;
+    }
+
+    .form-other {
+        display: grid;
+    }
+
+    .form-company {
+        display: grid;
+    }
+
+    .institute-label {
+        grid-column-start: 1;
+    }
+
+    .other-label {
+        grid-column-start: 1;
+    }
+
+    .institute-label {
+        grid-column-start: 1;
+    }
+
+    .other-label {
+        grid-column-start: 1;
+    }
+
+    .company-label {
+        grid-column-start: 1;
+    }
+
+    .form-control {
+        grid-column-start: 2;
+
+        margin-bottom: -0.8rem;
+
+        width: 125%;
+    }
+
+    .email-input {
+        grid-column-start: 2;
+    }
+
+    .institute-input {
+        grid-column-start: 3;
+
+        margin-bottom: 0;
+
+        width: 243%;
+    }
+
+    .other-input {
+        grid-column-start: 3;
+
+        margin-bottom: 0;
+
+        width: 243%;
+    }
+
+    .company-input {
+        grid-column-start: 3;
+
+        margin-bottom: 0;
+
+        width: 242%;
+    }
+
+    .form-select {
+        margin-bottom: -0.8rem;
+
+        width: 125%;
+    }
+
+    .form-radio-section {
+        margin-bottom: 0rem;
+    }
+
+    .form-checkbox-section {
+        margin-bottom: -0.8rem;
+    }
+
+    .submit-button {
+        margin-left: 5rem;
+
+        width: 125%;
+    }
+}

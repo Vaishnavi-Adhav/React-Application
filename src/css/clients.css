@@ -1,0 +1,24 @@
+.main-gallery {
+
+    padding: 0px 60px;
+    margin: 50px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 2em;
+}
+
+
+.main-gallery img {
+    cursor: pointer;
+}
+
+.client-img {
+    display: block;
+    max-width: 92%;
+    max-height: 90%;
+    margin: 60px auto;
+    box-shadow: 3px 5px 7px rgba(0, 0, 0, 0.5);
+}
+
+

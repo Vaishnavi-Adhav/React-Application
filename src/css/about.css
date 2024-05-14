@@ -1,0 +1,12 @@
+.about-website {
+    grid-column: span 12;
+
+    padding: 1rem;
+    border-radius: 2rem;
+
+    background-color: #e29c5d;
+}
+
+.about-html-content, .about-blockchain-content, .about-angular-content, about-machine-content {
+    padding-bottom: 1.5rem;
+}
